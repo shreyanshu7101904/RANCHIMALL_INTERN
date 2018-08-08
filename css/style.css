@@ -2,22 +2,25 @@
 {
     margin:0;
     padding: 0;
-    
+
 }
+
 body{
    overflow-x: hidden;
+   font-family: KalvikaRegular-Plain;
 }
 
 header
 {
-    
+
     height: 112px;
     line-height: 112px;
     position: fixed;
     z-index: 1;
     width: 100%;
-    
-     
+    font-family: Bebas Neue;
+
+
 }
 .animation
 {
@@ -44,8 +47,8 @@ ul li
 header nav
 {
     float: right;
-    
-} 
+
+}
 
 .logo img
 {
@@ -60,17 +63,17 @@ header nav ul li a
 {
     padding-right: 30px;
     font-weight: bold;
-    color: orange;
+    color: creole;
     transition: all 0.5s ease-in;
     text-decoration: none;
-  
+
 }
- 
+
 header nav ul li a:hover,header nav ul li a:focus
 {
     color: red;
     text-decoration: underline;
-    
+
 }
 
 
@@ -86,9 +89,9 @@ header nav ul li a:hover,header nav ul li a:focus
     width:100%;
     color: white;
      text-align: center;
-  
+
 }
-  
+
 .slider h2
 {
     font-weight: bold;
@@ -98,7 +101,7 @@ header nav ul li a:hover,header nav ul li a:focus
 
 .slider span
 {
-    color: orange;
+    color: #EFCDC7;
 }
 
 
@@ -106,7 +109,7 @@ header nav ul li a:hover,header nav ul li a:focus
 {
     padding: 10px 50px;
     margin-right: 10px;
-    
+
 }
 
 
@@ -154,10 +157,10 @@ header nav ul li a:hover,header nav ul li a:focus
 {
     font-size: 35px;
     margin-right: 10px;
-    
+
 }
- 
-    
+
+
 
 .intro-area
 {
@@ -175,7 +178,7 @@ header nav ul li a:hover,header nav ul li a:focus
 }
 
 
-.sub-heading:before 
+.sub-heading:before
 {
     content: "";
     position: absolute;
@@ -192,14 +195,14 @@ header nav ul li a:hover,header nav ul li a:focus
      -o-transition: 0.3s ease;
 	  transition: 0.3s ease;
 }
-.sub-heading:hover:before 
+.sub-heading:hover:before
 {
 	width: 24%;
 	margin-left: -12%;
 }
-.sub-heading:after 
+.sub-heading:after
 {
-    
+
     content: "";
     position: absolute;
     top: 100%;
@@ -210,21 +213,21 @@ header nav ul li a:hover,header nav ul li a:focus
     background: #e1e1e1;
 }
 
-.sub-heading p 
+.sub-heading p
 {
-    
+
     color: #818181;
     display: inline-block;
     padding: 0px 0px 20px;
     position: relative;
     line-height: 24px;
     letter-spacing: 0.025em;
-    
-    
+
+
 }
 .intro-block
 {
-    
+
     position: relative;
     background:#f7f7f7;
     margin: 50px 0px 0px;
@@ -245,7 +248,7 @@ header nav ul li a:hover,header nav ul li a:focus
     -moz-transition: .6s ease;
     -o-transition: .6s ease;
     -ms-transition: .6s ease;
-    
+
 }
 
 
@@ -269,9 +272,9 @@ header nav ul li a:hover,header nav ul li a:focus
     background: deepskyblue;
     border-radius: 50%;
     box-shadow: 0px 0px 0px 10px #CCEEF9;
-    
-    
-    
+
+
+
 }
 
 
@@ -280,7 +283,7 @@ header nav ul li a:hover,header nav ul li a:focus
     background:white;
     color: orange;
     box-shadow: 0px 0px 0px 10px orange;
-    
+
 }
 
 .intro-block h3
@@ -303,20 +306,20 @@ header nav ul li a:hover,header nav ul li a:focus
 
 .feature-area
 {
-    
+
     background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)), url(../image/slider1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-      
-    
+
+
 }
-.title h2,p 
+.title h2,p
 {
     color: white;
-    
+
 }
- 
+
 
 .single-feature h3
 {
@@ -337,7 +340,7 @@ header nav ul li a:hover,header nav ul li a:focus
     -moz-transition: .3s ease;
     -o-transition: .3s ease;
     -ms-transition: .3s ease;
-    
+
 }
 
 
@@ -345,7 +348,7 @@ header nav ul li a:hover,header nav ul li a:focus
 {
     content: "";
     display: table;
-    
+
 }
 
 
@@ -377,21 +380,21 @@ header nav ul li a:hover,header nav ul li a:focus
     -moz-transition: .3s ease;
     -o-transition: .3s ease;
     -ms-transition: .3s ease;
-        
+
 }
 
 
 .feature-block:hover .single-feature
 {
-    
+
     border-color: white;
     transition: .3s ease;
     -webkit-transition: .3s ease;
     -moz-transition: .3s ease;
     -o-transition: .3s ease;
     -ms-transition: .3s ease;
- 
-    
+
+
 }
 
 .single-feature:hover .featured-icon .fa
@@ -399,11 +402,11 @@ header nav ul li a:hover,header nav ul li a:focus
     border:2px solid #00a7dd;
     background: white;
     color: orange;
-    
-}
- 
 
- 
+}
+
+
+
 
 .single-feature:nth-of-type(even)
 {
@@ -415,7 +418,7 @@ header nav ul li a:hover,header nav ul li a:focus
     border-bottom: none;
 }
 
-.single-feature:last-child 
+.single-feature:last-child
 {
     border-bottom: none;
 }
@@ -428,14 +431,14 @@ header nav ul li a:hover,header nav ul li a:focus
     padding:100px 0;
 }
 
- 
+
 .feature-mockup
 {
     bottom: -120px;
     position: relative;
-    
+
 }
- 
+
 
 .title .sub-heading p
 {
@@ -482,8 +485,8 @@ header nav ul li a:hover,header nav ul li a:focus
     -moz-transition: .5s ease;
     -o-transition: .5s ease;
     -ms-transition: .5s ease;
-   
-    
+
+
 }
 
 .feature-icon
@@ -496,7 +499,7 @@ header nav ul li a:hover,header nav ul li a:focus
 
 .feature-icon i
 {
-    
+
    width: 63px;
     height: 63px;
     text-align: center;
@@ -506,7 +509,7 @@ header nav ul li a:hover,header nav ul li a:focus
     border-radius: 50%;
     border: 2px solid deepskyblue;
     line-height: 63px;
-    
+
 }
 
 .feature-details h3
@@ -559,7 +562,7 @@ header nav ul li a:hover,header nav ul li a:focus
     border-radius: 100%;
     border:2px solid deepskyblue;
     padding: 5px;
-    
+
 }
 
 .testimonials .carousel-indicators li.active
@@ -570,13 +573,13 @@ header nav ul li a:hover,header nav ul li a:focus
 
 .testimonials .carousel-indicators li
 {
-   
+
 }
 
 .team-area
 {
     padding: 100px 0px;
-  
+
 }
 
 
@@ -599,7 +602,7 @@ header nav ul li a:hover,header nav ul li a:focus
     min-width: 100px;
     border: 10px solid deepskyblue;
     border-radius: 50%;
-   
+
 }
 
 
@@ -640,7 +643,7 @@ header nav ul li a:hover,header nav ul li a:focus
     padding: 25px 15px;
     line-height: 24px;
 }
- 
+
 
 .team-description
 {
@@ -671,7 +674,7 @@ header nav ul li a:hover,header nav ul li a:focus
     border-radius: 50%;
     border: 3px solid #c4e5f0;
     padding-top: 10px;
-    
+
 }
 
 
@@ -679,7 +682,7 @@ header nav ul li a:hover,header nav ul li a:focus
 {
     text-align: center;
     position: relative;
-     
+
 }
 
 
@@ -692,9 +695,9 @@ header nav ul li a:hover,header nav ul li a:focus
     -moz-transition: .3s ease;
     -0-transition: .3s ease;
     -ms-transition: .3s ease;
-    
-    
-    
+
+
+
 }
 
 
@@ -707,7 +710,7 @@ header nav ul li a:hover,header nav ul li a:focus
     -moz-transition: .4s ease;
     -0-transition: .4s ease;
     -ms-transition: .4s ease;
-    
+
 }
 
 
@@ -732,64 +735,13 @@ header nav ul li a:hover,header nav ul li a:focus
     -moz-transition: .6s ease;
     -0-transition: .6s ease;
     -ms-transition: .6s ease;
-    
+
 }
 
 
 
-.download h2
-{
-    color: white;
-}
-
-.download .sub-heading p
-{
-    color:white;
-}
-
-.download
-{
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/clouds.jpg);
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-attachment: fixed;
- 
-    
-}
 
 
-.download .default-btn
-{
-    background:transparent;
-    border: 1px solid white;
-    color: white;
-    font-size: 20px;
-    padding: 8px 40px;
-    margin:0 12px;
-    transition: 0.5s ease-in;
-    
-}
-
-.download .default-btn:hover
-{
-    background: white;
-    color: deepskyblue;
-}
-
-.download .fa
-{
-    margin-right: 10px;
-}
-
-
-.downloadnow
-
-{
-    padding: 100px 0px;
-}
 
 
 .contact-area
@@ -864,7 +816,7 @@ header nav ul li a:hover,header nav ul li a:focus
 
 .contact-area .form-control, .contact-area textarea
 {
-    font-family: 'Roboto',sans-serif;
+    font-family: KalvikaRegular-Plain;
     background:#f8fdff;
     border: 1px solid #a5d3eb;
     padding: 10px 12px;
@@ -880,7 +832,7 @@ header nav ul li a:hover,header nav ul li a:focus
 .contact-area .form-group
 {
     margin-bottom: 30px;
-    
+
 }
 
 .contact-area textarea
@@ -893,7 +845,7 @@ header nav ul li a:hover,header nav ul li a:focus
 .contact-area .default-btn
 {
     padding: 10px;
-    
+
 }
 
 
@@ -918,8 +870,8 @@ footer
 
 .social-icon .fa
 {
-   
-    
+
+
     font-size: 30px;
     color: deepskyblue;
     width: 80px;
@@ -931,8 +883,8 @@ footer
     transition: .3s;
     border: 10px solid  #b1c9d1;
     text-align: center;
- 
-    
+
+
 }
 
 
@@ -949,29 +901,3 @@ footer
     margin: 0 auto;
     margin-top:20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
